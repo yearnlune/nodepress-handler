@@ -1,0 +1,27 @@
+{
+  "name": "nodepress-handler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoClient",
+    "mongoose",
+    "rabbitmq"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yearnlune/nodepress-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yearnlune/nodepress-handler/issues"
+  },
+  "homepage": "https://github.com/yearnlune/nodepress-handler",
+  "author": "DONGHWAN, KIM",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}
