@@ -2,7 +2,7 @@ import {Db, MongoClient} from "mongodb";
 import {MongoConfig} from "./types/handler";
 
 export class MongodbHandler {
-    private _config: MongoConfig
+    private _config!: MongoConfig
     private _connection!: MongoClient;
 
     constructor() {
@@ -87,10 +87,6 @@ export class MongodbHandler {
             status = true;
         })
             .then(() => status ? Promise.resolve() : Promise.reject(new Error('ping failed')));
-    }
-
-    get connection(): MongoClient {
-        return this._connection;
     }
 }
 
